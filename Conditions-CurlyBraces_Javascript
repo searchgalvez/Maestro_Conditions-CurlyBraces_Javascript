@@ -18,3 +18,15 @@ if (paused){
     console.log("Game is paused");
     console.log("Open pause menu");
 }
+
+------------------------------------
+
+let stamina = 20;
+let isResting = false;
+
+if (stamina < 30 || isResting) {
+    console.log("Regenerate stamina");
+}
+else {
+    console.log("Keep playing");
+}
