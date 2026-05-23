@@ -9,3 +9,12 @@ else if (hp < 70 && hp > 30){
 else{
     console.log("You are in danger");
 }
+
+------------------------------------
+
+let paused = true;
+
+if (paused){
+    console.log("Game is paused");
+    console.log("Open pause menu");
+}
