@@ -30,3 +30,17 @@ if (stamina < 30 || isResting) {
 else {
     console.log("Keep playing");
 }
+
+-------------------------------------
+
+let score = 72;
+
+if (score >= 80) {
+    console.log("Rank: Pro");
+}
+else if ( score >= 50 && score < 80) {
+    console.log("Rank: Intermediate");
+}
+else {
+    console.log("Rank: Beginner");
+}
